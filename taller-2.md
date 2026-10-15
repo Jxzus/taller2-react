@@ -125,6 +125,9 @@ function EstadoPedido() {
   );
 }
 ```
+<p align="center">
+  <img src="Componentes-de-React/JSX.png" alt="Texto alternativo">
+</p>
 
 Las variables `numeroPedido` y `estado` se insertan dentro de la estructura mediante llaves. De esta manera, el contenido de la interfaz puede construirse a partir de valores definidos en JavaScript.
 
