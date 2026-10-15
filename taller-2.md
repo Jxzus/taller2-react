@@ -92,6 +92,9 @@ function PanelPrincipal() {
   );
 }
 ```
+<p align="center">
+  <img src="Componentes-de-React/componentes.png" alt="Texto alternativo">
+</p>
 
 En este caso, `AvisoMantenimiento` reúne el mensaje en una pieza independiente. `PanelPrincipal` lo incorpora dentro de su contenido. Si el aviso necesita cambiar, se puede editar su componente sin reorganizar toda la página.
 
