@@ -164,6 +164,9 @@ function AgendaCultural() {
   );
 }
 ```
+<p align="center">
+  <img src="Componentes-de-React/props.png" alt="Texto alternativo">
+</p>
 
 El componente `Evento` recibe el nombre de una actividad y el lugar donde se realizará. La agenda lo utiliza dos veces con valores diferentes, por lo que no es necesario crear un componente nuevo para cada evento.
 
@@ -202,6 +205,9 @@ function SelectorDeAsientos() {
   );
 }
 ```
+<p align="center">
+  <img src="Componentes-de-React/estado.png" alt="Texto alternativo">
+</p>
 
 La selección comienza en un asiento. Al presionar los botones, se actualiza el valor guardado y el texto muestra la cantidad nueva. `Math.max(1, asientos - 1)` evita que el número baje de uno.
 
@@ -246,6 +252,9 @@ function PreferenciasNotificacion() {
   );
 }
 ```
+<p align="center">
+  <img src="Componentes-de-React/eventos.png" alt="Texto alternativo">
+</p>
 
 La casilla usa `onChange` para guardar si la opción está marcada. El texto cambia de acuerdo con ese valor. El botón utiliza `onClick` para desactivar la preferencia, por lo que ambos eventos afectan el mismo estado.
 
