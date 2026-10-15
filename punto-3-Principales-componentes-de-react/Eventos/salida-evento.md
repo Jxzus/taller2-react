@@ -1,1 +1,0 @@
-![Texto alternativo](eventos.png)
