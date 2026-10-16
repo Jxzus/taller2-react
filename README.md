@@ -1,5 +1,7 @@
 
-  <img src="Componentes-de-React/logo.png" alt="Texto alternativo" width="100">
+<p align="center">
+  <img src="Componentes-de-React/logos.png" alt="Texto alternativo" width="350">
+</p>
 
 # Taller 2 Corte - Investigación sobre React
 
