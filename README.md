@@ -38,7 +38,7 @@ El documento desarrolla los siguientes temas:
 
 El desarrollo completo del taller se encuentra en el siguiente archivo:
 
-[`taller-2-revisado.md`](taller-2.md)
+[`Investigacion del taller.md`](taller-2.md)
 
 ## Fuentes de consulta
 
