@@ -1,7 +1,6 @@
 # Taller 2 Corte: Investigación sobre React
 
 **Nombre:** Jesus Andres Perez Fuentes
-
 **Asignatura:** Desarrollo de Frontend
 **Modalidad:** Individual  
 **Fecha de entrega:** 16 de octubre de 2026  
