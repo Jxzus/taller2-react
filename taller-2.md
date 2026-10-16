@@ -1,6 +1,8 @@
 # Taller 2 Corte: Investigación sobre React
 
-**Asignatura:** Desarrollo web  
+**Nombre:** Jesus Andres Perez Fuentes
+
+**Asignatura:** Desarrollo de Frontend
 **Modalidad:** Individual  
 **Fecha de entrega:** 16 de octubre de 2026  
 
@@ -12,15 +14,27 @@
 
 React es una herramienta de JavaScript pensada para construir la parte visual de una aplicación web. Se utiliza cuando una página necesita mostrar información y reaccionar a lo que hace una persona, por ejemplo, seleccionar una opción, filtrar resultados o completar un formulario. En vez de escribir toda la pantalla como un bloque único, React permite organizarla en secciones que pueden desarrollarse y mantenerse por separado.
 
+<p align="center">
+  <img src="anexo-1-punto/react-que-es.png" alt="Texto alternativo" width="500">
+</p>
+
 ### ¿Quién lo creó y cuándo apareció?
 
 El equipo de Facebook —compañía que actualmente se llama Meta— desarrolló React para atender las necesidades de sus interfaces web. La biblioteca se presentó públicamente en 2013. Desde entonces, su uso se ha extendido a distintos tipos de sitios y aplicaciones.
+
+<p align="center">
+  <img src="anexo-1-punto/react-webpack.png" alt="Texto alternativo" width="600">
+</p>
 
 ### ¿Es una librería o un framework?
 
 React se clasifica como una **biblioteca de JavaScript**. Una biblioteca proporciona herramientas para una tarea concreta y el programador decide cómo integrarlas en su proyecto. En cambio, un framework suele ofrecer una estructura más amplia y pautas para resolver varias partes de una aplicación.
 
 React se enfoca principalmente en construir interfaces. Si un proyecto necesita administrar direcciones web, consultar servicios externos o preparar los archivos para publicarlos, se pueden agregar otras herramientas. Esa separación permite escoger las soluciones que mejor se ajusten al proyecto.
+
+<p align="center">
+  <img src="anexo-1-punto/libreria.jpg" alt="Texto alternativo" width="500">
+</p>
 
 ### ¿Qué significa que sea declarativo?
 
