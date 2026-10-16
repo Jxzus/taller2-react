@@ -49,6 +49,10 @@ El DOM es la estructura que el navegador crea para representar los elementos de 
 
 En una aplicación con filtros, formularios, listas y notificaciones, estas actualizaciones manuales pueden repetirse y dispersarse por el código. Eso hace más difícil encontrar errores y mantener el comportamiento cuando se agregan nuevas funciones.
 
+<p align="center">
+  <img src="anexo-1-punto/dom.png" alt="Texto alternativo" width="450">
+</p>
+
 ### Diferencia entre el enfoque imperativo y el declarativo
 
 - **Imperativo:** se escriben las instrucciones paso a paso para lograr un cambio. Por ejemplo, localizar el indicador de inventario, reemplazar su texto y cambiar su color cuando las unidades lleguen a cero.
@@ -56,17 +60,29 @@ En una aplicación con filtros, formularios, listas y notificaciones, estas actu
 
 En pocas palabras, el enfoque imperativo se centra en las operaciones que deben ejecutarse; el declarativo se centra en el resultado que debe representar la interfaz.
 
+<p align="center">
+  <img src="anexo-2-punto/diferencia.png" alt="Texto alternativo" width="400">
+</p>
+
 ### ¿Cómo mantiene React la interfaz sincronizada con el estado?
 
 El estado contiene información que puede variar durante el uso de la aplicación, como una opción seleccionada, el número de artículos elegidos o el contenido de un campo. Cuando el componente actualiza ese estado usando las herramientas de React, React vuelve a ejecutar el componente y calcula qué debe mostrar. Después actualiza la parte necesaria de la interfaz.
 
 Así, la vista se deriva de los datos y no depende de que el programador recuerde modificar manualmente cada elemento relacionado.
 
+<p align="center">
+  <img src="anexo-2-punto/interfaz.png" alt="Texto alternativo" width="400">
+</p>
+
 ### ¿Qué aportan los componentes reutilizables?
 
 Los componentes permiten separar la interfaz en unidades con responsabilidades claras. Por ejemplo, una aplicación de biblioteca podría tener un componente para mostrar cada libro. Ese mismo componente serviría para muchos títulos diferentes, recibiendo el nombre, el autor y la disponibilidad como datos.
 
 La reutilización evita duplicar estructuras similares y hace que los cambios sean más fáciles de mantener. Si se modifica la forma de presentar la disponibilidad de un libro, se puede actualizar el componente correspondiente en un solo lugar.
+
+<p align="center">
+  <img src="anexo-2-punto/reutilizable.png" alt="Texto alternativo" width="400">
+</p>
 
 ---
 
