@@ -1,3 +1,6 @@
+
+  <img src="Componentes-de-React/logo.png" alt="Texto alternativo" width="100">
+
 # Taller 2 Corte - Investigación sobre React
 
 ## Información general
